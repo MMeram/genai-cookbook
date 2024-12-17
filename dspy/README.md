@@ -38,34 +38,34 @@ via the Signature.
 
 All examples use OLlama Mistral, running locally on the laptop, and experimental DSPy [dspy.OLlama](https://dspy-docs.vercel.app/docs/building-blocks/language_models#local-lms) client integration APIs. Have a peek 👀 on GitHub!
 
- **Note** that some of these NLP tasks have been converted from [LLM Prompts notebook](https://github.com/dmatrix/genai-cookbook/blob/main/llm-prompts/2_how_to_conduct_common_nlp_llm_tasks.ipynb) using [CO-STAR framework](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41) prompt techniques, illustring how you can effect the same results declaratively, meaning expression _what_ not _how_ to do the task.
+ **Note** that some of these NLP tasks have been converted from [LLM Prompts notebook](https://github.com/MMeram/genai-cookbook-copy/blob/main/llm-prompts/2_how_to_conduct_common_nlp_llm_tasks.ipynb) using [CO-STAR framework](https://towardsdatascience.com/how-i-won-singapores-gpt-4-prompt-engineering-competition-34c195a93d41) prompt techniques, illustring how you can effect the same results declaratively, meaning expression _what_ not _how_ to do the task.
 
 #### Python Notebooks
 | Notebook Description| Open with Colab |
 |--------------------|-----------------|
-| Common NLP Tasks with DSPy Signature Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/04_dspy_common_nlp_llm_tasks.ipynb) |
-| Chain of Thought (CoT) Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/06_dspy_chain_of_thought.ipynb) |
-| Program of Thought (PoT) Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/08_dspy_program_of_thought.ipynb) |
-| Naive RAG with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/10_dspy_naive_rag.ipynb) |
-| ReAct Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/12_dspy_react_task.ipynb) |
-| Zero Short Learning with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dmatrix/genai-cookbook/blob/main/dspy/14_dspy_zero_shot_learning.ipynb) |
+| Common NLP Tasks with DSPy Signature Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/04_dspy_common_nlp_llm_tasks.ipynb?authuser=2) |
+| Chain of Thought (CoT) Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/06_dspy_chain_of_thought.ipynb?authuser=2) |
+| Program of Thought (PoT) Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/08_dspy_program_of_thought.ipynb?authuser=2) |
+| Naive RAG with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/10_dspy_naive_rag.ipynb?authuser=2) |
+| ReAct Tasks with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/12_dspy_react_task.ipynb?authuser=2) |
+| Zero Short Learning with DSPy Modules | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MMeram/genai-cookbook-copy/blob/main/dspy/14_dspy_zero_shot_learning.ipynb?authuser=2) |
 
 
 #### Python Apps
 
 | Python file  Description| View it on Github |
 |-------------------------|-------------------|
-| Basic inline DSPy signatures for LLM tasks| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/01_basic_inline_dspy_signature_example.py) |
-| Basic Class Signature modules for LLM Tasks |[Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/02_basic_class_dspy_signature_example.py)|
-|Common NLP Tasks with DSPy Modules| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/03_dspy_nlp_tasks.py)|
-|Chain Of Thought Tasks with DSPy Modules| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/05_dspy_chain_of_thought_tasks.py)|
-|Program Of Thought: Python code generation tasks with DSPy Modules| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/07_dspy_program_of_thought.py)|
-|Naive RAG with DSPy Module| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/09_dspy_naive_rag.py)|
-|ReAct tasks with DSPy Module| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/11_dspy_react_task_task.py)|
-|Zero Short Learning with DSPy Module| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/13_dspy_zero_short_learning.py)|
-|Using DSPy unoptimized and uncompiled pipeline| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/15_dspy_unoptimized_pipeline_example.py)|
-|Using DSPy optimized and compiled pipeline| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/16_dspy_optimized_pipeline_example.py)|
-|Using DSPy LongshotQA Example| [Python App](https://github.com/dmatrix/genai-cookbook/blob/main/dspy/17_qa_eval_with_citations.py)|
+| Basic inline DSPy signatures for LLM tasks| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/01_basic_inline_dspy_signature_example.py) |
+| Basic Class Signature modules for LLM Tasks |[Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/02_basic_class_dspy_signature_example.py)|
+|Common NLP Tasks with DSPy Modules| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/03_dspy_nlp_tasks.py)|
+|Chain Of Thought Tasks with DSPy Modules| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/05_dspy_chain_of_thought_tasks.py)|
+|Program Of Thought: Python code generation tasks with DSPy Modules| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/07_dspy_program_of_thought.py)|
+|Naive RAG with DSPy Module| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/09_dspy_naive_rag.py)|
+|ReAct tasks with DSPy Module| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/11_dspy_react_task_task.py)|
+|Zero Short Learning with DSPy Module| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/13_dspy_zero_short_learning.py)|
+|Using DSPy unoptimized and uncompiled pipeline| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/15_dspy_unoptimized_pipeline_example.py)|
+|Using DSPy optimized and compiled pipeline| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/16_dspy_optimized_pipeline_example.py)|
+|Using DSPy LongshotQA Example| [Python App](https://github.com/MMeram/genai-cookbook-copy/blob/main/dspy/17_qa_eval_with_citations.py)|
 
 
 
